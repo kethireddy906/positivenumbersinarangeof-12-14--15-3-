@@ -1,0 +1,4 @@
+nums=[12 , 14 , -15 , 3]
+Print("original numbers in the list:",nums)
+new_nums=list(filter(lambda x:x>0,nums))
+Print("positive numbers in the list:",new_nums)
